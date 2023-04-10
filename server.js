@@ -13,7 +13,7 @@ app.set("view engine", "ejs");
 // set api router
 
 app.get("/", (req, res) => {
-  res.sendFile(__dirname+'/views/crawler.html');
+  res.sendFile(__dirname+'/views/index.html');
 })
 app.use("/api", apiRouter);
 
